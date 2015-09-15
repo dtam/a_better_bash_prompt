@@ -1,2 +1,5 @@
-# a_better_bash_prompt
-better bash prompt with git branch and pwd!
+# A Better bash prompt with pwd and git branch parsing
+## Instructions
+- Add contents of proml.sh to .bash_profile, save
+- Open new terminal window or `source` it
+- Profit!
