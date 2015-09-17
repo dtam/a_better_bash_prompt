@@ -1,3 +1,5 @@
+function parse_git_branch {
+
 git branch --no-color 2> /dev/null | sed -e '/^[^<200b>*]/d' -e 's/*<200b> \(.*\)/(\1)/' -e 's/^/\ /'
 
 }
